@@ -25,6 +25,12 @@
     flex: 0.2;
 }
 
+@media(max-width: 800px) {
+  .payment__title {
+    margin-right: 8px;
+  }
+}
+
 .payment__address, .payment__items, .payment__details {
     flex: 0.8;
 }

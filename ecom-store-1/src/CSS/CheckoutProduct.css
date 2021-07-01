@@ -4,6 +4,12 @@
     margin-bottom: 20px;
 }
 
+@media(max-width: 800px) {
+    .checkoutProduct {
+      flex-direction: column;
+    }
+  }
+
 .checkoutProduct__info {
     padding-left: 20px
 }
@@ -23,11 +29,32 @@
     height: 180px;
   }
 
+  @media(max-width: 800px) {
+    .checkoutProduct__image {
+      margin-bottom: 8px;
+    }
+  }
+
 .checkoutProduct__rating {
     display: flex;
+  }
+
+  @media(max-width: 800px) {
+    .checkoutProduct__rating {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
   }
 
 .checkoutProduct__title {
     font-size: 17px;
     font-weight: 800;
 }
+
+@media(max-width: 800px) {
+    .checkoutProduct__title {
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+  }
