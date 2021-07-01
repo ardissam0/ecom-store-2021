@@ -16,6 +16,14 @@
   @media(max-width: 800px) {
     .home__row {
       flex-direction: column;
+      margin-left: 60px;
+    }
+  }
+
+  @media(max-width: 600px) {
+    .home__row {
+      flex-direction: column;
+      margin-left: 0;
     }
   }
   

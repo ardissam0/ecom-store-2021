@@ -4,6 +4,7 @@
 
 .orders > h1 {
     margin: 30px 0;
+    color: #fff;
 }
 
 @media(max-width: 800px) {

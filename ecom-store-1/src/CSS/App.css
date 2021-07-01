@@ -1,0 +1,59 @@
+/* Dark Mode Styles */
+
+.dark-mode__container {
+    display: flex;
+    margin-top: 17px;
+    margin-right: 20px;
+  }
+  
+  @media(max-width: 800px) {
+    .dark-mode__container {
+      justify-content: center;
+      margin-top: 15px;
+      margin-left: 30px;
+    }
+  }
+  
+  .dark-mode__container .light__symbol{
+    margin: 3.5px;
+    color: gold;
+  }
+  
+  .dark-mode__container .dark__symbol{
+    margin: 3.5px;
+    color: white;
+  }
+  
+  .dark-mode__toggle {
+    margin: 2px;
+    background: transparent;
+    border-radius: 50px;
+    border: 2px solid white;
+    height: 19px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .toggle {
+    background: white;
+    border-radius: 75px;
+    height: 14px;
+    left: 4px;
+    margin-top: 2px;
+    position: absolute;
+    transition: 0.2s;
+    width: 15px;
+  }
+  
+  .toggle:hover {
+    cursor: pointer;
+  }
+  
+  .toggled {
+    left: 18px;
+  }
+  
+  .dark-mode {
+    background-color: #101b2e;
+    transition: background-color 0.25s ease-out;
+  }
